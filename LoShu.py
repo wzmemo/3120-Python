@@ -1,13 +1,11 @@
 """The Lo Shu Magic Square is a grid with 3 rows and 3 columns, shown in Figure 7-8. 
 The Lo Shu Magic Square has the following properties:
 The grid contains the numbers 1 through 9 exactly.
-
 The sum of each row, each column, and each diagonal all add up to the same number.
-
-This is shown in figure below.
 
 Write a function that accepts a two-dimensional list as an argument
 and determines whether the list is a Lo Shu Magic Square. Test the function in a program."""
+
 
 lst = [
     [4,9,2],
