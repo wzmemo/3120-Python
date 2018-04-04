@@ -1,0 +1,14 @@
+# check if vowel
+def main4():
+    userInput = input('Enter a character ')
+    while userInput.isalpha() == False or len(userInput) > 1:
+        userInput = input('Enter ONLY ONE VALID ALPHABETIC character: ')
+    isVowel(userInput)
+    print ('end of prgm')
+def isVowel(user):
+    user = user.lower()
+    if user == 'a' or user == 'e' or user == 'i' or user == 'o' or user == 'u':
+        print ('Your character is a vowel')
+    else:
+        print ('Your character is not a vowel; is a consonant ')
+main4()
